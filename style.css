@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #4a2e4b;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: left;
+}
+
+/* Header Block for Name and Contact Info */
+.header-block {
+    background-color: #c880b7; /* Light pink/purple color */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.header-block h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header-block p {
+    color: white;
+    margin: 5px 0;
+}
+
+.header-block a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-block a:hover {
+    text-decoration: underline;
+}
+
+.left-section h3 {
+    font-size: 16px;
+    color: #ffb7c5;
+    margin-top: 20px;
+}
+
+.left-section ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    background-color: #fff;
+}
+
+.right-section h1 {
+    font-size: 24px;
+    color: #4a2e4b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-section h3 {
+    color: #4a2e4b;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-section p {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+button {
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a2e4b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffb7c5;
+}
